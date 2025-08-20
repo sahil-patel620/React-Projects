@@ -15,7 +15,7 @@ function App() {
   const [playStatus, setPlayStatus] = useState(false);
 
   useEffect(() => {
-    const interval = setInterval(() => {
+    const interval = setInterval(( ) => {
       setHeroCount((count) => {
         return count === 2 ? 0 : count + 1;
       });
